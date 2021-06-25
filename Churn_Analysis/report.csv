@@ -1,0 +1,7 @@
+,Accuracy
+Support Vector Classifier,0.8037914691943128
+KNN Model,0.7677725118483413
+DecisionTreeClassifier,0.7966824644549763
+RandomForestClassifier,0.7933649289099526
+AdaBoostClassifier,0.8056872037914692
+GradientBoostingClassifier,0.8085308056872038
