@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  height: 100%;
+  /* background-color: rgb(223, 222, 222); */
+  background: linear-gradient(rgba(26, 25, 25, 0.9), rgba(26, 25, 25, 0.9)),
+  url("https://images.pexels.com/photos/5882638/pexels-photo-5882638.jpeg");
+  background-size: cover;
+  font-weight: 100;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  letter-spacing: 1rem;
+  text-decoration: line-through;
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  transform: translateY(8rem);
+}
+.ribbon {
+  margin: 1rem;
+  height: 30vh;
+  width: 98vw;
+  border-radius: 50px;
+  background-size: cover;
+}
+.infobox {
+  /* background: cornsilk; */
+  background: transparent;
+  height: 70vh;
+  width: 80vw;
+  border-radius: 50px;
+  margin: auto;
+  transform: translateY(-5rem);
+  box-shadow: 11px 9px 45px 9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 9px 45px 9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 9px 45px 9px rgba(0, 0, 0, 0.75);
+  color: black;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.block {
+  position: absolute;
+  background: transparent;
+  max-width: 45vw;
+  margin: 3rem 0;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-left: 1rem;
+  text-shadow: 11px 7px 11px rgba(0, 0, 0, 0.2);
+}
+h2 {
+  margin: 1rem 2rem;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+p {
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  min-width: 75vw;
+}
+.seperation {
+  background: transparent;
+  max-height: 1rem;
+}
+span {
+  font-weight: bold;
+}
+.highlight {
+  color: dodgerblue;
+}
+span:hover {
+  color: crimson;
+}
+.btn {
+  display: inline-flex;
+  margin-top: 5rem;
+  margin-left: 60%;
+  text-align: center;
+}
+button {
+  min-width: 15rem;
+  line-height: 1;
+  border: none;
+  font-size: 1.5em;
+  color: whitesmoke;
+  padding: 2px 10px;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  opacity: 0.8;
+  margin: 0 1rem;
+}
+button:hover {
+  opacity: 1;
+}
